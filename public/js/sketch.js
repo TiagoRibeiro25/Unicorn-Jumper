@@ -24,7 +24,7 @@ function keyPressed() {
 }
 
 function draw() {
-  if (random(1) < 0.008) {
+  if (random(1) < 0.01) {
     trains.push(new Train());
 
     // Update current score and high score
