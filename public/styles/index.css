@@ -1,0 +1,31 @@
+.top-content {
+  /* divide with 2 columns
+  the first column is 70% width
+  and the second one is 30% width */
+  display: grid;
+  grid-template-columns: 64% 30%;
+  grid-gap: 20px;
+  max-width: 820px;
+}
+
+.submitBtn,
+a {
+  background-color: #f5f5f5;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.submitBtn:hover,
+a:hover {
+  background-color: #000;
+  color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}

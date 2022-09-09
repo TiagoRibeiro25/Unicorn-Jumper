@@ -1,0 +1,60 @@
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.67em 0;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+button {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}

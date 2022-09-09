@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unicorn</title>
+
+    <link rel="icon" href="./assets/favicon.ico" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <!-- Includes the p5.collide2D addon library -->
+    <script defer src="https://unpkg.com/p5.collide2d"></script>
+  </head>
+  <body>
+    <div class="top-content">
+      <p class="scores">
+        High Score: <span id="highScore">0</span>
+        <br />
+        Score: <span id="score">0</span>
+      </p>
+
+      <div class="submit-section">
+        <form id="submitScore">
+          <label for="name">Submit your High Score</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+          <input class="submitBtn" type="submit" value="Submit" />
+          <a href="./html/scores.html">See all Scores</a>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/unicorn.js"></script>
+    <script src="./js/train.js"></script>
+    <script src="./js/sketch.js"></script>
+
+    <script src="./js/submit.js"></script>
+  </body>
+</html>
