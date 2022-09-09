@@ -3,7 +3,7 @@ let uImg;
 let tImg;
 let bImg;
 let trains = [];
-let highScore = 0;
+let highScore = localStorage.highScore ? JSON.parse(localStorage.highScore) : 0;
 let score = 0;
 
 function preload() {
@@ -76,7 +76,11 @@ function draw() {
       gameOverText.style("color", "red");
       gameOverText.style("text-shadow", "2px 2px 4px #ffffff");
 
-      // add event listener to buttons
+      // Update high score in localStorage
+      localStorage.highScore = JSON.stringify(highScore);
+      console.log(JSON.parse(localStorage.highScore));
+
+      // add event listener to reset button
       function resetSketch() {
         // remove the content that shows when "game over"
         // (the reset button, the game over text, and the hit boxes)
