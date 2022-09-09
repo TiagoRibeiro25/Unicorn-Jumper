@@ -78,7 +78,6 @@ function draw() {
 
       // Update high score in localStorage
       localStorage.highScore = JSON.stringify(highScore);
-      console.log(JSON.parse(localStorage.highScore));
 
       // add event listener to reset button
       function resetSketch() {
