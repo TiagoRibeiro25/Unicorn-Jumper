@@ -1,7 +1,4 @@
 .top-content {
-  /* divide with 2 columns
-  the first column is 70% width
-  and the second one is 30% width */
   display: grid;
   grid-template-columns: 64% 30%;
   grid-gap: 20px;
