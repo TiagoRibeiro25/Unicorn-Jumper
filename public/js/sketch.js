@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 450);
+  createCanvas(1200, 500);
   unicorn = new Unicorn();
 }
 
